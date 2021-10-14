@@ -1,0 +1,242 @@
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel='shortcut icon' href='logo.jpg' />
+    <title>Countdown 2022</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="description" content="Countdown 2022" />
+
+    <meta property="og:title" content="Countdown 2022" />
+
+    <meta property="og:description" content="Countdown 2022" />
+
+    <meta property="og:url" content="https://www.haitetvn.com/dem-nguoc-den-tet/" />
+
+    <meta property="og:site_name" content="Countdown 2022" />
+
+    <meta property="og:image" content="https://www.haitetvn.com/dem-nguoc-den-tet/banner-tet-2019.jpg" />
+    <script data-ad-client="ca-pub-1159105140387848" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src='jquery-3.2.1.min.js'></script>
+
+    <script src="js.js"></script>
+
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+
+        })(window, document, 'script', 'dataLayer', 'GTM-NT7TLWH');</script>
+
+
+
+    <style type="text/css">
+        html,
+        body,
+        div,
+        span,
+        h1,
+        h2 {
+            padding: 0;
+            border: 0;
+            margin: 0;
+            background: transparent;
+            font-size: 100%;
+            font-weight: inherit;
+            vertical-align: baseline;
+        }
+
+        .clearfix:after {
+            content: "\00A0";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+
+        html[xmlns] .clearfix {
+            display: block;
+        }
+
+        * html .clearfix {
+            height: 1%;
+        }
+
+        a {
+            color: #FF0;
+            text-decoration: none;
+        }
+
+        html {
+            height: 100%;
+            background: #900 url(bg.png) top center;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        body {
+            font-size: 1.6em;
+            background: transparent;
+            color: #ffffff;
+            font-family: 'Dancing Script', Helvetica, Arial, sans-serif;
+            background-size: cover;
+        }
+
+        #topbar {
+            background-color: #000;
+            padding: 5px 0;
+        }
+
+        #main {
+            max-width: 1100px;
+            margin: auto;
+            margin-top: 5%;
+        }
+
+        .colorlight {
+            text-shadow: 0 0 10px #efe81d, 0 0 20px #efe81d, 0 0 30px #efe81d, 0 0 40px #f80f1f, 0 0 70px #f80f1f, 0 0 80px #f80f1f, 0 0 100px #f80f1f, 0 0 150px #f80f1f;
+        }
+
+        h1,
+        h2 {
+            font-size: 3em;
+            margin: .35em 0 0;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        .clock {
+            float: left;
+            overflow: hidden;
+            background-color: #fff;
+            color: #222;
+            border-radius: 30%;
+            position: relative;
+            width: 20%;
+            height: 0;
+            padding-bottom: 20%;
+            margin: 3% 0 3% 4%;
+        }
+
+        .clock .num {
+            font-size: 350%;
+            font-weight: 700;
+            height: 0;
+            line-height: 190%;
+        }
+
+        .clock .text {
+            font-size: 130%;
+            text-transform: uppercase;
+            background-color: #eee;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            line-height: 180%;
+        }
+
+        .clock.tet {
+            background-color: #f6361e;
+        }
+
+        .clock.tet .text {
+            background-color: #d00120;
+        }
+
+        @media (max-width: 767px) {
+            body {
+                font-size: 14px;
+            }
+
+            h2 {
+                font-size: 1.6em;
+            }
+
+            @media (max-width: 480px) {
+                .clock {
+                    width: 35%;
+                    padding-bottom: 35%;
+                    margin: 5% 0 0 10%;
+                }
+
+                h1 {
+                    margin-top: .55em;
+                }
+            }
+
+            @media only screen and (max-width: 767px) and (orientation: landscape) {
+                #main {
+                    margin-top: 1%;
+                }
+
+                h1 {
+                    margin-top: 0;
+                }
+            }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&amp;subset=vietnamese" rel="stylesheet">
+</head>
+
+<body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NT7TLWH" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div id="main">
+
+
+        <h1 id="tetornot" class="">Đếm ngược đến tết</h1>
+
+        <h2 id="tet" class=""></h2>
+
+        <div class="clearfix">
+
+            <div class="clock">
+                <div id="days" class="num">&nbsp;</div>
+                <div id="days-text" class="text">Ngày</div>
+            </div>
+
+            <div class="clock">
+                <div id="hours" class="num">&nbsp;</div>
+                <div id="hours-text" class="text">Giờ</div>
+            </div>
+
+            <div class="clock">
+                <div id="mins" class="num">&nbsp;</div>
+                <div id="mins-text" class="text">Phút</div>
+            </div>
+
+            <div class="clock">
+                <div id="secs" class="num">&nbsp;</div>
+                <div id="secs-text" class="text">Giây</div>
+            </div>
+
+        </div>
+
+        <audio id="autoplay" controls>
+            <source src="nhactet.mp3">
+        </audio>
+
+        <script>
+            var myaudio = document.getElementById('autoplay').autoplay = true;
+        </script>
+
+    </div>
+
+</body>
+
+</html>
