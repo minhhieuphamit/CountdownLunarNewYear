@@ -208,46 +208,48 @@
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&amp;subset=vietnamese" rel="stylesheet">
 </head>
 
-<body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NT7TLWH" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+<body>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NT7TLWH" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
 
     <div id="main">
-
-
         <h1 id="tetornot" class="">Đếm ngược đến tết nguyên đán</h1>
 
         <h2 id="tet" class=""></h2>
 
-        <h3>Ngày diễn ra: Thứ Ba, 01/02/2022 (Dương lịch) | 01/01/2022 (Âm lịch)</h2>
+        <h3>Ngày diễn ra: Thứ Ba, 01/02/2022 (Dương lịch) | 01/01/2022 (Âm lịch)</h3>
 
-            <div class="clearfix">
+        <div class="clearfix">
 
-                <div class="clock">
-                    <div id="days" class="num">&nbsp;</div>
-                    <div id="days-text" class="text">Ngày</div>
-                </div>
-
-                <div class="clock">
-                    <div id="hours" class="num">&nbsp;</div>
-                    <div id="hours-text" class="text">Giờ</div>
-                </div>
-
-                <div class="clock">
-                    <div id="mins" class="num">&nbsp;</div>
-                    <div id="mins-text" class="text">Phút</div>
-                </div>
-
-                <div class="clock">
-                    <div id="secs" class="num">&nbsp;</div>
-                    <div id="secs-text" class="text">Giây</div>
-                </div>
-
+            <div class="clock">
+                <div id="days" class="num">&nbsp;</div>
+                <div id="days-text" class="text">Ngày</div>
             </div>
 
-            <iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-            <audio id="player" controls loop>
-                <source src="nhactet.mp3" >
+            <div class="clock">
+                <div id="hours" class="num">&nbsp;</div>
+                <div id="hours-text" class="text">Giờ</div>
+            </div>
+
+            <div class="clock">
+                <div id="mins" class="num">&nbsp;</div>
+                <div id="mins-text" class="text">Phút</div>
+            </div>
+
+            <div class="clock">
+                <div id="secs" class="num">&nbsp;</div>
+                <div id="secs-text" class="text">Giây</div>
+            </div>
+        </div>
+
+        <div id='autoplay'>
+            <audio controls autoplay loop>
+                <source src="nhactet.mp3" type="audio/mp3" />
+                <p>If you can read this, your browser does not support the audio element.</p>
             </audio>
+        </div>
 
     </div>
 
