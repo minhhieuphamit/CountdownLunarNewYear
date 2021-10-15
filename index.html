@@ -1,30 +1,37 @@
-<html lang="vi" ><head>
+<html lang="vi">
+
+<head>
 
     <meta charset="UTF-8">
-    
+
     <link rel='shortcut icon' href='logo.jpg' />
 
     <title>Đếm ngược đến Tết Nguyên Đán Nhâm Dần 2022</title>
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    
-    <meta name="description" content="Còn bao nhiêu ngày nữa đến Tết Nguyên Đán Nhâm Dần 2022 ? Đồng hồ đếm ngược đến tết 2022" />
-    
+
+    <meta name="description"
+        content="Còn bao nhiêu ngày nữa đến Tết Nguyên Đán Nhâm Dần 2022 ? Đồng hồ đếm ngược đến tết 2022" />
+
     <meta property="og:title" content="Đếm ngược đến Tết Nguyên Đán Nhâm Dần 2022" />
-    
-    <meta property="og:description" content="Còn bao nhiêu ngày nữa đến Tết Nguyên Đán Nhâm Dần 2022 ? Đồng hồ đếm ngược đến tết 2022" />
-    
-    <meta property="og:url" content="https://minhhieuphamit.github.io/coundown2022/?fbclid=IwAR0HB6zoZCUN5DjaUfiLE-Ds-diwgh1VAuKJnhJXT92E_ZJydVyVPHrqJWE" />
-    
+
+    <meta property="og:description"
+        content="Còn bao nhiêu ngày nữa đến Tết Nguyên Đán Nhâm Dần 2022 ? Đồng hồ đếm ngược đến tết 2022" />
+
+    <meta property="og:url"
+        content="https://minhhieuphamit.github.io/coundown2022/?fbclid=IwAR0HB6zoZCUN5DjaUfiLE-Ds-diwgh1VAuKJnhJXT92E_ZJydVyVPHrqJWE" />
+
     <meta property="og:site_name" content="Đếm Ngược Đến Tết" />
-    
-    <meta property="og:image" content="https://cdn.tgdd.vn/hoi-dap/1358320/Thumbnail/tet-nguyen-dan-2022-vao-ngay   -nao-duong-lich-duoc-nghi-may..jpg"/>
-    <script data-ad-client="ca-pub-1159105140387848" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <meta property="og:image"
+        content="https://cdn.tgdd.vn/hoi-dap/1358320/Thumbnail/tet-nguyen-dan-2022-vao-ngay   -nao-duong-lich-duoc-nghi-may..jpg" />
+    <script data-ad-client="ca-pub-1159105140387848" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script src='jquery-3.2.1.min.js'></script>
-    
-    <script  src="js.js"></script>
+
+    <script src="js.js"></script>
 
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -120,7 +127,7 @@
             margin: 0;
         }
 
-        h3{
+        h3 {
             text-align: center;
             font-size: 20px;
             margin: 0 0 0;
@@ -208,42 +215,39 @@
 
 
         <h1 id="tetornot" class="">Đếm ngược đến tết nguyên đán</h1>
-        
+
         <h2 id="tet" class=""></h2>
 
         <h3>Ngày diễn ra: Thứ Ba, 01/02/2022 (Dương lịch) | 01/01/2022 (Âm lịch)</h2>
 
-        <div class="clearfix">
+            <div class="clearfix">
 
-            <div class="clock">
-                <div id="days" class="num">&nbsp;</div>
-                <div id="days-text" class="text">Ngày</div>
+                <div class="clock">
+                    <div id="days" class="num">&nbsp;</div>
+                    <div id="days-text" class="text">Ngày</div>
+                </div>
+
+                <div class="clock">
+                    <div id="hours" class="num">&nbsp;</div>
+                    <div id="hours-text" class="text">Giờ</div>
+                </div>
+
+                <div class="clock">
+                    <div id="mins" class="num">&nbsp;</div>
+                    <div id="mins-text" class="text">Phút</div>
+                </div>
+
+                <div class="clock">
+                    <div id="secs" class="num">&nbsp;</div>
+                    <div id="secs-text" class="text">Giây</div>
+                </div>
+
             </div>
 
-            <div class="clock">
-                <div id="hours" class="num">&nbsp;</div>
-                <div id="hours-text" class="text">Giờ</div>
-            </div>
-
-            <div class="clock">
-                <div id="mins" class="num">&nbsp;</div>
-                <div id="mins-text" class="text">Phút</div>
-            </div>
-
-            <div class="clock">
-                <div id="secs" class="num">&nbsp;</div>
-                <div id="secs-text" class="text">Giây</div>
-            </div>
-
-        </div>
-
-        <audio id="autoplay" controls>
-            <source src="nhactet.mp3">
-        </audio>
-
-        <script>
-            var myaudio = document.getElementById('autoplay').autoplay = true;
-        </script>
+            <iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+            <audio id="player" controls loop>
+                <source src="nhactet.mp3" >
+            </audio>
 
     </div>
 
